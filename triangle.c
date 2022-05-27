@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-main()
+int main()
 {
     float a, b, c, s, area;
     printf("Enter three sides value please :\n");
