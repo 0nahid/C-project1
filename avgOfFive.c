@@ -8,6 +8,6 @@ main()
     avg = (float)(a+b+c+d+e)/5 ;
     printf("Average of the  %f\n", avg);
     m=(int)avg;
-    printf("Integral part is : %d" , m);
+    printf("Integral part is : %d\n" , m);
 
 }
