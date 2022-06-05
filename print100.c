@@ -3,7 +3,7 @@ main()
 {
     int r = 1, sum = 0;
 m:
-    if (r <= 10)
+    if (r <= 1000)
     {
         printf("%d\t", r);
         sum += r;
