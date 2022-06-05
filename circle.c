@@ -6,5 +6,5 @@ void main()
     printf("Enter the radius of the circle:\n");
     scanf("%f", &radius);
     area = pi * radius * radius;
-    printf("area of the circle is %.2f\n", area);
+    radius > 0 ? printf("Area of the circle = %.2f\n", area) : printf("Not a circle\n");
 }
