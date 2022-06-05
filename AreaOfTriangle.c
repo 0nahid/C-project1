@@ -8,6 +8,6 @@ int main()
     scanf("%f%f%f", &a, &b, &c);
     s = (a + b + c) / 2;
     area = sqrt(s * (s - a) * (s - b) * (s - c));
-    printf("Area of the rectangle = %.2f\n", area);
+    (a + b > c) ? (printf("Area of the rectangle = %.2f\n", area)) : (printf("Not a rectangle\n"));
     return 0;
 }
