@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+recheck:
     int marks;
     printf("Enter your marks:\n");
     scanf("%d", &marks);
@@ -52,13 +53,15 @@ int main()
                 printf("D\n");
             }
         }
-        if(marks < 60)
+        if (marks < 60)
         {
-            printf("You've failed for %d marks\n",60-marks);
+            printf("You've failed for %d marks\n", 60 - marks);
         }
     }
     else
     {
         printf("Invalid marks\n");
     }
+    printf("\n");
+    goto recheck;
 }
