@@ -54,7 +54,7 @@ int main()
         }
         if(marks < 60)
         {
-            printf("F\n");
+            printf("You've failed for %d marks\n",60-marks);
         }
     }
     else
