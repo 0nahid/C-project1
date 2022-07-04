@@ -17,12 +17,5 @@ int main()
         sum = sum + fact;
         temp = temp / 10;
     }
-    if (sum == num)
-    {
-        printf("%d is a strong number\n", num);
-    }
-    else
-    {
-        printf("%d is not a strong number\n", num);
-    }
+    (sum == num) ? printf("%d is a strong number\n", num) : printf("%d is not a strong number\n", num);
 }
