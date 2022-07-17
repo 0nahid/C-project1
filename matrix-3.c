@@ -9,7 +9,7 @@ int main()
     {
         for (j = 1; j <= i; ++j)
         {
-            printf("* ");
+            printf("%d ", rows);
         }
         printf("\n");
     }
@@ -17,7 +17,7 @@ int main()
     {
         for (j = 1; j <= i; ++j)
         {
-            printf("* ");
+            printf("%d ", rows);
         }
         printf("\n");
     }
