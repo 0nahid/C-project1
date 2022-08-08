@@ -44,4 +44,24 @@ int main()
         }
         printf("\n");
     }
+    
+    // adding the matrix
+    for (r = 0; r < n; r++)
+    {
+        for (c = 0; c < n; c++)
+        {
+            z[r][c] = x[r][c] + y[r][c];
+        }
+    }
+    // showing the matrix
+    printf("\nMatrix z:\n");
+    for (r = 0; r < n; r++)
+    {
+        for (c = 0; c < n; c++)
+        {
+            printf("%d\t", z[r][c]);
+        }
+        printf("\n");
+    }
+    return 0;
 }
