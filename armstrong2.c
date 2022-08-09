@@ -13,8 +13,7 @@ int main()
 
     for(i=1; i<=end; i++)
     {
-        sum = 0;
-
+        sum = 0; 
         /* Copy the value of num for processing */
         num = i;
 

@@ -1,20 +1,29 @@
+/**
+ * C program to calculate Compound Interest
+ */
+
 #include <stdio.h>
 #include <math.h>
+
 int main()
 {
-    float principal, rate, time, total;
-    printf("Enter the principal amount : ");
-    scanf("%f", &principal);
-    printf("Enter the rate of interest : ");
-    scanf("%f", &rate);
-    printf("Enter the time in years : ");
+    float principle, rate, time, CI;
+
+    /* Input principle, time and rate */
+    printf("Enter principle (amount): ");
+    scanf("%f", &principle);
+
+    printf("Enter time: ");
     scanf("%f", &time);
-m:
-    if (time <= 10)
-    {
-        total += principal * pow(1 + rate / 100, time);
-        time++;
-        goto m;
-    }
-    printf("The amount after %.0f years is %f\n", (time - 1), total);
+
+    printf("Enter rate: ");
+    scanf("%f", &rate);
+
+    /* Calculate compound interest */
+    CI = principle * (pow((1 + rate / 100), time));
+
+    /* Print the resultant CI */
+    printf("Compound Interest = %.f\n", CI);
+
+    return 0;
 }
