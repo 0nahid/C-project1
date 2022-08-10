@@ -18,7 +18,7 @@ int main()
     {
         if (a[i] == element)
         {
-            printf("%d found at position %d", element, i + 1);
+            printf("%d found at position %d\n", element, i + 1);
             return 0;
         }
     }
