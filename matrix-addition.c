@@ -63,5 +63,27 @@ int main()
         }
         printf("\n");
     }
+    // matrix multiplication
+    printf("\nMatrix multiplication:\n");
+    for (r = 0; r < n; r++)
+    {
+        for (c = 0; c < n; c++)
+        {
+            for (i = 0; i < n; i++)
+            {
+                z[r][c] += x[r][i] * y[i][c];
+            }
+        }
+    }
+    // showing the matrix
+    printf("\nMatrix z:\n");
+    for (r = 0; r < n; r++)
+    {
+        for (c = 0; c < n; c++)
+        {
+            printf("%d\t", z[r][c]);
+        }
+        printf("\n");
+    }
     return 0;
 }
